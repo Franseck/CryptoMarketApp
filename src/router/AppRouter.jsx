@@ -1,5 +1,5 @@
-import { BrowserRouter } from "react-router-dom"
-import { GlobalStyles } from "../components/Styled/GlobalStyles/GlobalStyles"
+import { BrowserRouter,Routes, Route } from "react-router-dom"
+
 import Header from "../components/Header"
 
 
