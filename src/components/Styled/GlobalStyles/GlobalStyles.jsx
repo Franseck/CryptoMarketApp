@@ -8,6 +8,18 @@ export const GlobalStyles = createGlobalStyle `
     body{
     background-color: #564a3c;
     }
+    p{
+    line-height:2;
+    opacity: 0.7;
+}
+a{
+    color:  #f4f4f4;
+    text-decoration:none
+}
+h1{
+    text-align:center;
+    margin:1rem;
+}
 `;
 
 export const breakpoints = {
