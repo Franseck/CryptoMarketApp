@@ -2,13 +2,11 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
-import HeaderStyle from "../components/Styled/HeaderStyle"
 import IconStyle from '../components/Styled/IconStyle'
 import InfoStyle from '../components/Styled/InfoStyle'
 import { FlexStyle } from '../components/Styled/FlexStyle'
 import {GridStyle} from "../components/Styled/GridStyle"
 import {ContentStyle} from "../components/Styled/ContentStyle"
-import StatsStyle from "../components/Styled/StatsStyle"
 import WrapperStyle from "../components/Styled/WrapperStyle"
 import { GlobalStyles } from '../components/Styled/GlobalStyles/GlobalStyles'
 
@@ -49,7 +47,7 @@ Rank # {coin.market_cap_rank}
               <p>{coin.symbol}</p>{" "}
   </FlexStyle>
   {coin.market_data?.current_price ? (
-              <h1>Current Price: ${coin.market_data.current_price.usd} </h1>
+              <h2>Current Price :<br/> ${coin.market_data.current_price.usd} </h2>
             ) : null}
 </InfoStyle>
 </ContentStyle>

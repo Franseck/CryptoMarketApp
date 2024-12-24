@@ -8,4 +8,5 @@ export const GridStyle = styled.div`
   grid-gap: 1.2rem;
   margin-top:10px;
   border-bottom: 3px solid #474646;
+
 `;

@@ -7,6 +7,7 @@ import styled from "styled-components";
   align-items:center ;
   background-color: #46616b;
   box-shadow: 0 0 12px #18191b;
+  font-family: "Special Elite";
   border-radius: 8px;
   margin: 2rem 1rem;
   padding: 0.7rem 1rem;

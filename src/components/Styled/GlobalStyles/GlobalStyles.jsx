@@ -19,10 +19,15 @@ a{
 h1{
     text-align:center;
     margin:1rem;
-    color:#4993ac;;
-     font-family: "Fredericka the Great";
-
+      color:#4993ac;;
+    font-family: "Nothing You Could Do"
 }
+    h2{
+     font-family: "Fredericka the Great";
+        text-align:center;
+    margin:1rem;
+    color:#4993ac;;
+    }
     span{
       color:bisque;
     }
