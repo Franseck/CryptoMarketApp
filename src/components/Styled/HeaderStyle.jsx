@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-export const Header = styled.div`
+ const HeaderStyle = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items:center ;
-  background-color: #26272b;
+  background-color: #46616b;
   box-shadow: 0 0 12px #18191b;
   border-radius: 8px;
   margin: 2rem 1rem;
@@ -16,5 +16,6 @@ export const Header = styled.div`
     transition: .3s ease-in-out;
     cursor: pointer;
   }
-
 `;
+
+export default HeaderStyle

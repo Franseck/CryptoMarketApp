@@ -1,6 +1,7 @@
 
 import {FlexStyle} from "../Styled/FlexStyle"
 import HeaderStyle from "../Styled/HeaderStyle"
+import { MobileResponsive } from "../Styled/MobileResponsive";
 
 const CoinItem = ({ coins }) => {
   return (

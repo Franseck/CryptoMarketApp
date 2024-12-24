@@ -23,7 +23,7 @@ const WrapperStyle = styled.div`
   }
 
   th {
-    background-color: #444;
+    background-color: #416161;
   }
 
   td,

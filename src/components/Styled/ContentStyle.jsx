@@ -8,8 +8,8 @@ export const ContentStyle = styled.div`
   display: flex;
   flex-wrap: wrap;
   flex-direction:column;
-  background-color:#26272b;
-  box-shadow: 0px 0px 12px #18191b;
+  background-color:#162933;
+  box-shadow: 0px 0px 12px #586785;
   border-radius: 12px;
   @media screen and (max-width: 768px) {
    max-width: 360px;

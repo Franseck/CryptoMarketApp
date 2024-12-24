@@ -6,7 +6,7 @@ export const GlobalStyles = createGlobalStyle `
     margin : 0;
     }
     body{
-    background-color: #564a3c;
+    background-color: #2f3f45;
     }
     p{
     line-height:2;
@@ -19,6 +19,9 @@ a{
 h1{
     text-align:center;
     margin:1rem;
+    color:#4993ac;;
+     font-family: "Fredericka the Great";
+
 }
     span{
       color:bisque;
