@@ -1,6 +1,7 @@
-import React from 'react'
+import {FlexStyle} from "../Styled/FlexStyle"
+import HeaderStyle from "../Styled/HeaderStyle"
 
-const CoinItem = () => {
+const CoinItem = ({coins}) => {
   return (
     <div>CoinItem</div>
   )

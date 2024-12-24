@@ -20,6 +20,9 @@ h1{
     text-align:center;
     margin:1rem;
 }
+    span{
+      color:bisque;
+    }
 `;
 
 export const breakpoints = {
